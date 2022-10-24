@@ -13,34 +13,31 @@
 }
 
 #footer{
-    color: rgb(199, 32, 38);
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,11,0,1) 100%);
+color: rgba(255,11,0,1);
+}
+
+.linkcolor {
+    color: white;
 }
 
 .imageneshome{
     padding: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-
 .inline td{
     display: inline-block;
     float: left;
 }
 
-.overflow td{
-    overflow: visible;
-}
-
-.tablaprincipal td {
-    vertical-align: top;
-}
-
 .imagenesbiografia img {
 padding: 5px;
+}
+
+.articulos {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .formulario {
