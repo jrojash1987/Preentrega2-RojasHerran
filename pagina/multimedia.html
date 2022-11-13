@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body id="body">
+<body id="body" class="container-fluid">
     <header id="header">
         <nav class="navbar navbar-expand-lg menuprincipal" style="background-color: #fb0606;">
             <div class="container-fluid">
@@ -22,7 +22,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav navbar-center">
                   <li class="nav-item">
                     <a class="nav-link active linkcolor" aria-current="page" href="../index.html">Home</a>
                   </li>
@@ -43,13 +43,22 @@
             </div>
     </nav>
     </header>
-    <section class="principal row">
+    <div class="row text-center">
+      <h1>Multimedia de Ayrton Senna</h1>
+    </div>
+    <section class="principal">
+      <div>
+        <p class="h5">
+          He decidido colocar aca un video acerca de la ultima carrera de Ayrton, la que resulto fatal, y las distintas teorias de todo lo que ocurrio en el fatidico suceso, asi mismo puedes encontrar la ubicacion del circuito en donde se corria la carrera.
+        </p>
+      </div>
+      <div class="row multimedia">
         <iframe class="col align-self-center" width="560" height="315" src="https://www.youtube.com/embed/usbMOzR04vM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe class="col" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2853.3265623148177!2d11.717329615520317!3d44.34434227910373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132b4a7474d71167%3A0x81177e3551c217a6!2sAutodromo%20Enzo%20e%20Dino%20Ferrari!5e0!3m2!1ses!2sco!4v1664314710791!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </section>
     <footer id="footer">
-        <p>Lorem ipsum dolor sit amet.</p>
-        
+      <p>2022 Julian Rojas</p>  
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
